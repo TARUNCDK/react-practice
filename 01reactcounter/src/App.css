@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-heading{
+  background-color: rgb(84, 255, 255);
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+button{
+  background-color: rgb(62, 114, 203);
+  color: #f0f0f0;
+  height: 30px;
+  width: 100px;
+  border: 0px solid;
+  border-radius: 13px;
+}
