@@ -43,7 +43,7 @@ function App() {
     passwordGenerator()
   } , [length , numberAllowed , charAllowed , passwordGenerator])
 
-  
+
   return (
     <>
       <div
@@ -60,7 +60,7 @@ function App() {
             ref={passwordRef}
           />
           <button onClick={copyPassword}
-          className="outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0">copy</button>
+          className="outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0 hover:bg-blue-600 transition-colors">copy</button>
         </div>
 
         <div className="flex text-sm gap-x-2">
